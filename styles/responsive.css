@@ -1,0 +1,223 @@
+/*CSS for the background image*/
+body{
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	background-color: rgba(69,168,249,1);
+}
+
+/*CSS for the title of the page*/
+#wrapper h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Verdana", sans-serif;
+}
+
+/*CSS to remove the bullet point from the links*/
+ul li {
+	list-style-type: none;
+}
+
+/*CSS to change the background colour of the menu and change*/
+a {
+    background-color: rgba(69,168,249,.75);
+    font-size: large;
+}
+
+/*CSS to change the colour of the link*/
+a:link {
+    color: #000000;
+}
+
+/*CSS to change the colour of the link once its been visited*/
+a:visited {
+    color: #FF7979;
+}
+
+/*CSS to make the link you hover over change colour*/
+a:hover, a:active, a:focus {
+    color: #FBDC98;
+    text-decoration: underline;
+}
+#links {
+    margin-left: 0%;
+	margin-right: 0%;
+    padding: 0;
+    width: 100.%;
+    text-align: center;
+    list-style-type: none;
+}
+
+/*CSS to make the menu fit the width of the page*/
+#links a {
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    float: left;
+    width: 16.6%;
+    text-align: center;
+}
+
+/*CSS to make the link you hover over change colour*/
+#links a:hover {
+    color: #FBDC98;
+	text-decoration: underline;
+}
+
+/*CSS for the divs Main and Aside to have them on the same row*/
+main, aside {
+    margin-left: 3%;
+    margin-right: 1%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-family: "Segoe", "Segoe UI", "DejaVu Sans", "Trebuchet MS", "Verdana", sans-serif;
+    text-align: justify;
+    background-color: rgba(117,188,250,.8);
+    padding-right: 15px;
+    border-radius: 30px;
+    padding-left: 15px;
+}
+
+/*CSS for the audio to be at the center and wider*/
+audio{
+    text-align: center;
+    width: 50%;
+	float:right;
+	margin:0 25%;
+	padding-bottom: 25px;
+}
+
+/*CSS to put a width and colour on the div Main*/
+main {
+    width: 44%;
+    color: aliceblue;
+    min-height: 680px;	
+}
+
+/*CSS to put the image in the center and change the font size*/
+main figure {
+    text-align: center;
+	font-size:20px;
+}
+
+/*CSS to put a width and colour on the div Aside*/
+aside {
+    width: 44%;
+    color: aliceblue;
+	min-height: 680px;
+}
+
+/*CSS to put the image in the center and change the font size*/
+aside figure {
+    text-align: center;
+	font-size:20px;
+}
+
+/*CSS to make the images appear gray*/
+.grayscale {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+/*CSS to make the image appear normal when you hover over it*/
+.grayscale:hover {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+
+/*CSS on the heading at the bottom of the page*/
+#tour{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin: auto;
+    color: #FFFFFF;
+    padding-bottom: 25px;
+    font-style: italic;
+}
+
+/*CSS for the div containing the videos */
+#video {
+	width: 90%;
+	text-align:center;
+	float: left;
+	margin-left: 5%;
+}
+
+/*CSS for the left video*/
+#left{
+    float: left;
+	width:30%;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 20px;
+	padding-bottom:25px;
+	font-style: italic;
+	color: #FFFFFF;
+}
+
+/*CSS for the center video to be at the center of the page*/
+ #center{
+    float: left;
+    width: 30%;
+    margin: 0 5%;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 20px;
+    padding-bottom: 25px;
+	font-style: italic;
+	color: #FFFFFF;
+}
+
+/*CSS for the right video*/
+#right{
+	float:left;
+	width:30%;
+	text-align: center;
+	font-size: 25px;
+	border-radius: 20px;
+	padding-bottom:25px;
+	font-style: italic;
+	color: #FFFFFF;
+}
+
+/*CSS for the footer at the bottom of the page*/
+footer {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	float: none;
+	clear: both;
+	color: black;
+	font-size: 15px;
+	text-align: center;
+	margin: 0px;
+	background-color: rgba(148,173,226,1);
+}
+
+/* CSS for the slideshow */
+.container{
+	width: 100%;
+	height: 100%;
+	background: rgb(40,40,40);
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	padding-top: 5%;
+}
+
+.swiper{
+	width:70%;
+	height: fit-content;
+}
+
+.swiper-slide img{
+	width: 100%;
+}

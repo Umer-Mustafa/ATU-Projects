@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<title>Italy</title>
+<link href="styles/responsive.css" rel="stylesheet" type="text/css"> <!-- Code to connect to the external CSS file -->
+<script src="js/Gallery.js"></script> <!-- Code to connect the external Javascript file -->
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+</head>
+
+<!--Adds an image to the background-->
+<body  style= background-color: rgba(69,168,249,.75>
+	
+<div id="wrapper"> <!--Wrapper begins here-->
+        <header>
+          <h1>Gallery</h1> <!--The title of the page-->
+          <nav> <!--Adds the navigation bar at the top of the page-->
+            <ul id="links"> 
+           		<li><a href="Index.html">Home</a></li>
+              	<li><a href="Naples.html">Naples</a></li>
+				<li><a href="#">Rome</a></li>
+				<li><a href="#">Venice</a></li>
+				<li><a href="#">Milan</a></li>
+				<li><a href="Gallery.html">Gallery</a></li>
+              </ul>
+          </nav>
+		</header>
+		
+		<div class="container">
+			<div class="swiper">
+				<div class="swiper-wrapper">
+					<!-- Slides -->
+					<div class="swiper-slide"><img id="slider" src="Images/Pisa.jpg" ></div>
+	
+				</div>
+				<!-- Navigation buttons -->
+				<div id="prev" class="swiper-button-prev" onclick="prev()"></div>
+				<div id="next" class="swiper-button-next" onclick="next()"></div>
+			</div>
+		</div>
+		
+		<footer><!--Adds a footer at the bottom of the page-->
+		<p>© Copyright Sights of Italy - Check out the gallery for more pictures</p>
+		</footer>
+		
+</div> <!--Wrapper ends here-->
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+</body>
+</html>
+
+<!-- https://www.youtube.com/watch?v=aRE2Zge1rUI -->
+<!-- https://swiperjs.com/get-started -->
